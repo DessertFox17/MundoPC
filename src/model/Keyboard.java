@@ -1,7 +1,7 @@
 package model;
 
 public class Keyboard extends InDevices{
-    private int keyboardId;
+    private final int keyboardId;
     private static int keyboardCounter;
 
     public Keyboard(String inType, String brand) {

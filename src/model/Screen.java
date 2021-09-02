@@ -1,7 +1,7 @@
 package model;
 
 public class Screen {
-    private int screenId;
+    private final int screenId;
     private String brand;
     private double size;
     private static int screenCounter;

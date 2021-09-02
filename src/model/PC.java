@@ -1,7 +1,7 @@
 package model;
 
 public class PC {
-    private int pcId;
+    private final int pcId;
     private String name;
     private Screen screen;
     private Keyboard keyboard;

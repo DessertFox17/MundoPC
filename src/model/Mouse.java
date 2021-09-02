@@ -1,7 +1,7 @@
 package model;
 
 public class Mouse extends InDevices {
-    private int mouseId;
+    private final int mouseId;
     private static int mouseCounter;
 
     public Mouse(String inType, String brand) {
